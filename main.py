@@ -1,9 +1,9 @@
-# take input from user
-price = float(input("Type the price : "))
-dis = float(input("Type the discount : "))
+# take the input min from user
+in_min = int(input("Type the Minute : "))
 
-# calculate the cost
-cost = (price - (price*(dis/100)))
+#calculating
+hrs =  in_min//60
+min = in_min %60
 
-# print the result
-print(round(cost,2))
+# printing the result
+print(f"the result is {hrs}:{min}")
